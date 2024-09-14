@@ -1,0 +1,36 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run `zed: open default settings` from the
+// command palette
+{
+	"assistant": {
+		"dock": "bottom",
+		"version": "2"
+	},
+	"terminal": {
+		"dock": "bottom"
+	},
+	"vim_mode": false,
+	"telemetry": {
+		"diagnostics": false,
+		"metrics": false
+	},
+	"ui_font_size": 17,
+	"ui_font_family": "Outfit",
+	"ui_font_weight": 400,
+	"buffer_font_size": 16,
+	"buffer_font_family": "JetBrainsMono Nerd Font Mono",
+	"buffer_font_weight": 200,
+	"hard_tabs": true,
+	"tab_size": 4,
+	"buffer_line_height": { "custom": 2 },
+	"theme": {
+		"mode": "dark",
+		"light": "Catppuccin Latte - No Italics",
+		"dark": "Catppuccin Mocha - No Italics"
+	}
+}
