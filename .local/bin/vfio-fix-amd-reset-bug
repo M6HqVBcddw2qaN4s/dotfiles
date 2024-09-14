@@ -1,0 +1,18 @@
+#!/bin/bash
+DATE=$(date +"%m/%d/%Y %R:%S :")
+
+AMDGPU_PCI_ID="0000:0a:00.0"
+AMDGPU_AUDIO_PCI_ID="0000:0a:00.1"
+
+echo "$DATE [ Beginning of AMD Reset Bug Fix! ]"
+
+echo "$DATE [ Fixing AMD reset bug ]"
+echo "$DATE [ Detaching GPU from host ]"
+echo 1 | sudo tee /sys/bus/pci/devices/$AMDGPU_PCI_ID/remove
+echo 1 | sudo tee /sys/bus/pci/devices/$AMDGPU_AUDIO_PCI_ID/remove
+echo "$DATE [ Suspending system ]"
+systemctl suspend
+echo "$DATE [ Re-attaching GPU to host ]"
+echo 1 | sudo tee /sys/bus/pci/rescan
+
+echo "$DATE [ End of AMD Reset Bug Fix! ]"
