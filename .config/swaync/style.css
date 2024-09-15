@@ -1,6 +1,6 @@
 * {
 	all: unset;
-	font-size: 14px;
+	font-size: 16px;
 	font-family: "Outfit";
 	transition-property: background-color;
 	transition-duration: 125ms;
@@ -21,11 +21,12 @@ slider {
 	background-color: #89b4fa;
 }
 
+/* Notification */
 .floating-notifications.background .notification-row .notification-background {
 	/* box-shadow:
 		0 0 8px 0 rgba(0, 0, 0, 0.8),
 		inset 0 0 0 1px rgba(49, 50, 68, 0.15); */
-	border-radius: 12.6px;
+	border-radius: 20px;
 	margin: 18px; /* 26px */
 	/* background-color: rgba(49, 50, 68, 0.7); */
 	background-color: rgba(17, 17, 27, 0.7);
@@ -49,6 +50,7 @@ slider {
 	box-shadow: inset 0 0 7px 0 #f38ba8;
 }
 
+/* Notification All Content (incl. Icon, Title, Time, Content) */
 .floating-notifications.background
 	.notification-row
 	.notification-background
@@ -57,15 +59,19 @@ slider {
 	margin: 7px;
 }
 
+/* Notification Title */
 .floating-notifications.background
 	.notification-row
 	.notification-background
 	.notification
 	.notification-content
 	.summary {
-	color: #cdd6f4;
+	color: rgb(203, 166, 247);
+	font-weight: 600;
+	margin-left: 10px;
 }
 
+/* Notification Time */
 .floating-notifications.background
 	.notification-row
 	.notification-background
@@ -75,6 +81,7 @@ slider {
 	color: #a6adc8;
 }
 
+/* Notification Content */
 .floating-notifications.background
 	.notification-row
 	.notification-background
@@ -82,6 +89,8 @@ slider {
 	.notification-content
 	.body {
 	color: #cdd6f4;
+	font-weight: 500;
+	margin-left: 10px;
 }
 
 .floating-notifications.background
@@ -216,6 +225,7 @@ slider {
 	box-shadow: inset 0 0 7px 0 #f38ba8;
 }
 
+/* Notification All Content (incl. Icon, Title, Time, Content) */
 .control-center
 	.notification-row
 	.notification-background
@@ -224,15 +234,19 @@ slider {
 	margin: 7px;
 }
 
+/* Notification Title */
 .control-center
 	.notification-row
 	.notification-background
 	.notification
 	.notification-content
 	.summary {
-	color: #cdd6f4;
+	color: rgb(203, 166, 247);
+	font-weight: 600;
+	margin-left: 10px;
 }
 
+/* Notification Time */
 .control-center
 	.notification-row
 	.notification-background
@@ -242,6 +256,7 @@ slider {
 	color: #a6adc8;
 }
 
+/* Notification Content */
 .control-center
 	.notification-row
 	.notification-background
@@ -249,6 +264,8 @@ slider {
 	.notification-content
 	.body {
 	color: #cdd6f4;
+	font-weight: 500;
+	margin-left: 10px;
 }
 
 .control-center
@@ -452,5 +469,7 @@ slider {
 }
 
 .image {
-	padding-right: 0.5rem;
+	border-radius: 12px;
+	padding-right: 1px;
+	padding-bottom: 1px;
 }
