@@ -43,5 +43,5 @@
 ### Super+B - Dropdown Password Manager
 
 ## Screenshots
-![rice1](https://github.com/user-attachments/assets/344c97b4-3975-46a5-899a-167b3113eede)
-![rice2](https://github.com/user-attachments/assets/69cba7ab-3789-4333-b422-eca07fe87126)
+![rice1](https://github.com/user-attachments/assets/5f15813a-d296-42da-b23c-1343d8b730da)
+![rice2](https://github.com/user-attachments/assets/099e10a4-8f06-4da1-b491-382bfcffe401)
