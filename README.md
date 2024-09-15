@@ -23,10 +23,10 @@
 ### [fastfetch](https://github.com/fastfetch-cli/fastfetch) - System Information Utility
 ### [librewolf](https://codeberg.org/librewolf/source) - Privacy-oriented Web Browser
 ### [obs-studio](https://github.com/obsproject/obs-studio) - Screen Recorder
-### [thunderbird](https://github.com/mozilla/releases-comm-central) - E-mail Client
-### [bitwarden](https://github.com/bitwarden/clients) - Password Manager
 ### [freetube](https://github.com/FreeTubeApp/FreeTube) - YouTube Client
 ### [torbrowser-launcher](https://gitlab.torproject.org/tpo/applications/torbrowser-launcher) - Tor Browser
+### [thunderbird](https://github.com/mozilla/releases-comm-central) - E-mail Client
+### [bitwarden](https://github.com/bitwarden/clients) - Password Manager
 ### [vesktop](https://github.com/Vencord/Vesktop) - Discord Client Modification
 ### [session-desktop](https://github.com/oxen-io/session-desktop) - Session Desktop
 ### [signal-desktop](https://github.com/signalapp/Signal-Desktop) - Signal Desktop
