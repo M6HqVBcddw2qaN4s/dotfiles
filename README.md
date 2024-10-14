@@ -43,6 +43,12 @@
 ### Super+Y - Dropdown E-mail Client
 ### Super+B - Dropdown Password Manager
 
+## Kitty keybinds
+### Ctrl+Shift+T - Create new tab
+### Ctrl+Shift+Q - Close current tab
+### Ctrl+Shift+Left - Go to previous tab
+### Ctrl+Shift+Right - Go to next tab
+
 ## Screenshots
-![rice1](https://github.com/user-attachments/assets/5f15813a-d296-42da-b23c-1343d8b730da)
-![rice2](https://github.com/user-attachments/assets/099e10a4-8f06-4da1-b491-382bfcffe401)
+![rice1](https://github.com/user-attachments/assets/e7b904fd-e1fb-4cf8-a4ab-d6fe85042c34)
+![rice2](https://github.com/user-attachments/assets/f02588ec-9f64-4efe-a53a-477b9484a866)
