@@ -10,6 +10,7 @@
 ### [rofi](https://github.com/davatorium/rofi) - Power Menu
 ### [kitty](https://github.com/kovidgoyal/kitty) - Terminal Emulator
 ### [btop](https://github.com/aristocratos/btop) - Resource Monitor
+### ~~[thunar](https://gitlab.xfce.org/xfce/thunar) - File Manager~~
 ### [nautilus](https://gitlab.gnome.org/GNOME/nautilus) - File Manager
 ### [gnome-disk-utility](https://gitlab.gnome.org/GNOME/gnome-disk-utility) - Disk Utility
 ### [loupe](https://gitlab.gnome.org/GNOME/loupe) - Image Viewer
@@ -21,7 +22,7 @@
 ### [xed](https://github.com/linuxmint/xed) - Text Editor
 ### [vim](https://github.com/vim/vim) - CLI Text Editor
 ### [fastfetch](https://github.com/fastfetch-cli/fastfetch) - System Information Utility
-### [librewolf](https://codeberg.org/librewolf/source) - Privacy-oriented Web Browser
+### [librewolf](https://codeberg.org/librewolf/source) - Privacy-oriented fork of Firefox
 ### [obs-studio](https://github.com/obsproject/obs-studio) - Screen Recorder
 ### [freetube](https://github.com/FreeTubeApp/FreeTube) - YouTube Client
 ### [torbrowser-launcher](https://gitlab.torproject.org/tpo/applications/torbrowser-launcher) - Tor Browser
