@@ -14,6 +14,7 @@
         "custom/notification",
         "network",
         "pulseaudio",
+        "custom/microphone",
         "battery",
         "custom/power"
     ],
@@ -87,6 +88,15 @@
         },
         "on-click": "pamixer -t",
         "scroll-step": 1
+    },
+    "custom/microphone": {
+        "interval": "once",
+        "exec": "~/.local/bin/toggle-microphone.sh",
+        "exec-on-event": false,
+        "signal": 10,
+        "format": "{}",
+        "on-click": "pactl set-source-mute @DEFAULT_SOURCE@ toggle; pkill -SIGRTMIN+10 waybar",
+        "tooltip": "Click to mute/unmute"
     },
     "battery": {
         "format": "{capacity}% {icon}",
